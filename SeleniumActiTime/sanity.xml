@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test thread-count="5" verbose="2" name="Module1 test">
+    <classes>
+      <class name="com.intellipaat.actitime.testng.AllAnnotations"/>
+      <class name="com.intellipaat.actitime.testng.HelloWorld"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test thread-count="5" verbose="2" name="Module2 test">
+    <classes>
+      <class name="com.intellipaat.actitime.testng.AllAnnotations"/>
+      <class name="com.intellipaat.actitime.testng.HelloWorld"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

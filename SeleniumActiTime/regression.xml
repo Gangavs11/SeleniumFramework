@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Regression Tests">
+	<parameter name="url" value="http://localhost/login.do" />
+	<parameter name="username" value="admin" />
+	<parameter name="password" value="manager" />
+	<test thread-count="5" verbose="2" name="RegressionTest">
+		<classes>
+			<class name="com.intellipaat.actitime.testng.CreateCustomerTest" />
+		</classes>
+	</test> <!-- GRP-mahendra,maruthi -->
+</suite> <!-- SeleniumTraining by groups -->
